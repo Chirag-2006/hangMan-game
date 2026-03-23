@@ -1,7 +1,8 @@
 
 const App = () => {
+
   return (
-    <div>App</div>
+    <div className="container mx-auto flex justify-center bg-red-200" >App</div>
   )
 }
 
