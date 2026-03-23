@@ -6,10 +6,14 @@ const App = () => {
     return words[Math.floor(Math.random() * words.length)];
   })
 
+  const [guessedLetters, setGuessedLetters] = useState<string[]>([])
+
   return (
     <>
       <div className="container mx-auto flex justify-center" >
-        {wordToGuess}
+        <div className="text-2xl text-center">
+          loos win
+        </div>
       </div>
     </>
   )
